@@ -1,10 +1,11 @@
 allow_embedding: false
-package_name: Custom_HTML_1
+package_name: copol_sooperbit
 startup: {type: form, module: Machine1}
-name: Custom HTML 1
+name: copol:sooperbit
 startup_form: null
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
+metadata: {title: The SooperBit Network, description: COPOL is built on SooperBit technology. One SooperBit has 3 microbits.}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
